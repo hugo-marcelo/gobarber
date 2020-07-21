@@ -1,3 +1,9 @@
+# dependencies
 node_modules
+
+# production
+dist
+
 launch.json
 .env
+
