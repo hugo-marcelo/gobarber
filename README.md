@@ -27,10 +27,10 @@
 ```bash
 
 # criar estrutura do banco de dados Postgres
-yarn typeorm migration:run
+yarn sequelize db:migrate
 
 # iniciar servidor da aplicação
-yarn dev:server
+yarn dev
 
 ```
 
