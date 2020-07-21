@@ -28,7 +28,7 @@ export default function Notifications() {
 
   const socket = useMemo(
     () =>
-      socketio('http://localhost:3333', {
+      socketio(process.env.REACT_APP_API_URL, {
         query: {
           user_id: user.id,
         },
