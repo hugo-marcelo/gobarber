@@ -18,7 +18,7 @@
 
 ### :information_source: Deploy
 
-- https://gobarber-api.herokuapp.com
+- https://gobarber-js-api.herokuapp.com
 
 ### :information_source: Instruções Back-end
 
@@ -35,3 +35,59 @@ yarn dev:server
 ```
 
 ---
+
+## :computer: Front-end
+
+### :information_source: Deploy
+
+- https://gobarber-js-web.herokuapp.com
+
+### :information_source: Instruções Front-end
+
+```bash
+#instalar os pacotes e dependências
+yarn
+
+# iniciar a aplicação web
+yarn start
+```
+
+---
+
+## :iphone: Mobile
+
+### :information_source: Instruções Mobile (iOS)
+
+```bash
+#instalar os pacotes e dependências
+yarn
+
+# iniciar o aplicativo no emulador do iOS
+yarn ios
+```
+
+### :information_source: Instruções Mobile (Android)
+
+```bash
+#instalar os pacotes e dependências
+yarn
+```
+
+Alterar a variável baseURL em `/src/services/api.js` colocando o ip local ou do emulador
+
+```bash
+# inicializar o aplicativo no emulador do Android
+yarn android
+```
+
+---
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## :clap: Obrigado
+
+[Rocketseat](https://rocketseat.com.br/) pelo bootcamp!
